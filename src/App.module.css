@@ -1,0 +1,118 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 270px;
+  height: 450px;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.view {
+  background-color: hsla(178, 100%, 50%, 0.4);
+  position: absolute;
+  padding: 100px;
+  border-radius: 25px;
+  left: 0;
+  top: 0;
+  display: block;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.card-img:hover,
+.view:hover {
+  opacity: 1;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+.text h2 {
+  font-size: 18px;
+  transition: all 0.4s;
+}
+
+.text h2:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.text p {
+  color: var(--soft-blue);
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.static {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px 15px 0px;
+  border-bottom: 1px solid var(--line);
+}
+
+.etherium {
+  display: flex;
+  align-items: center;
+}
+
+.etherium p {
+  color: var(--cyan);
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer img {
+  width: 28px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.footer > p {
+  color: var(--soft-blue);
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.footer > p > span {
+  color: var(--white);
+  transition: all 0.4s;
+}
+
+.footer > p > span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
