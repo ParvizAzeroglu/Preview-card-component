@@ -19,7 +19,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .card-img {
@@ -33,7 +33,7 @@
   background-color: hsla(178, 100%, 50%, 0.4);
   position: absolute;
   padding: 100px;
-  border-radius: 25px;
+  border-radius: 10px;
   left: 0;
   top: 0;
   display: block;
